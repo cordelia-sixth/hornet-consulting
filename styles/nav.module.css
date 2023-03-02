@@ -1,0 +1,11 @@
+.container ul {
+  display: flex;
+  gap: 3.5rem;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container a:hover {
+  color: rgb(28, 73, 221);
+}
