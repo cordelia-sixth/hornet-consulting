@@ -1,7 +1,11 @@
-.container ul {
+.nav {
   display: flex;
   gap: 3.5rem;
-  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  gap: 3.5rem;
   font-size: 1rem;
   font-weight: bold;
 }

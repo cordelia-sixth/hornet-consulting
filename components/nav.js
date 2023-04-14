@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Contact from "./contact"
 import styles from "styles/nav.module.css";
 
 export default function Nav() {
   return (
-    <nav className={styles.container}>
+    <nav className={styles.nav}>
       <ul>
         <li>
           <Link href="#" className={styles.linkWrapper}>
@@ -11,26 +12,22 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-        <Link href="#">
+          <Link href="#">
             <span>SERVICE</span>
           </Link>
         </li>
         <li>
-        <Link href="#">
+          <Link href="#">
             <span>NEWS</span>
           </Link>
         </li>
         <li>
-        <Link href="#">
-            <span>ABOUT</span>
-          </Link>
-        </li>
-        <li>
-        <Link href="#">
-            <span>CONTACT</span>
+          <Link href="#">
+            <span>COMPANY</span>
           </Link>
         </li>
       </ul>
+      <Contact />
     </nav>
   )
 }
